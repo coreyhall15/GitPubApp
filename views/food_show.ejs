@@ -1,0 +1,24 @@
+
+<h2><%= food.name %></h2>
+<h1><%= food.image %></h1>
+<h3><%= food.price %></h3>
+
+<a href="/food">Back to list</a>
+
+
+
+
+<ul>
+    <% foods.forEach((food, index) => { %>
+
+       <a href="/food/<%= index %>"><li><%= food.name %></li></a>
+       
+    <% }) %>
+</ul>
+<style type=" text/css">
+    body{
+        color: blanchedalmond;
+        background-color: steelblue;
+    }
+
+</style>

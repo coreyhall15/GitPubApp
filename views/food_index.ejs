@@ -1,0 +1,15 @@
+<h1>Welcome to gitPub</h1>
+<ul>
+    <% foods.forEach((food, index) => { %>
+
+       <a href="/food/<%= index %>"><li><%= food.name %></li></a>
+
+    <% }) %>
+</ul>
+<style type=" text/css">
+    body{
+        color: blanchedalmond;
+        background-color: steelblue;
+    }
+
+</style>

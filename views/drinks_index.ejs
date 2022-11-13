@@ -1,0 +1,17 @@
+
+
+<h1>Welcome to gitPub</h1>
+<ul>
+    <% drinks.forEach((drink, index) => { %>
+
+       <a href="/drink/<%= index %>"><li><%= drink.name %></li></a>
+
+    <% }) %>
+</ul>
+<style type=" text/css">
+    body{
+        color: blanchedalmond;
+        background-color: steelblue;
+    }
+
+</style>
